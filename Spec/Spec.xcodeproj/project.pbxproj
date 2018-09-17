@@ -33,7 +33,6 @@
 		B9C1EFA8214FF6D7005F5134 /* NSDate+Year.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1D799F74DA311CD6536F /* NSDate+Year.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9C1EFA9214FF6D7005F5134 /* NSDate+Month.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1F0525C26CA84D59F689 /* NSDate+Month.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9C1EFAA214FF6D7005F5134 /* NSDate+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA154E91EA244B4E3FDD38 /* NSDate+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9C1EFAB214FF6D7005F5134 /* NSDate+Calendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1205683FBF7DABB985A6 /* NSDate+Calendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9C1EFAC214FF6D7005F5134 /* NSDate+DateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1C963329D03EA297BAC6 /* NSDate+DateTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9C1EFAD214FF6D7005F5134 /* NSDate+Components.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA15F3232962A90CEDE304 /* NSDate+Components.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9C1EFAE214FF6F8005F5134 /* NSDate+Day.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA18D3C624EFB1463BB6EF /* NSDate+Day.m */; };
@@ -238,7 +237,6 @@
 				B9C1EFA8214FF6D7005F5134 /* NSDate+Year.h in Headers */,
 				B9C1EFA9214FF6D7005F5134 /* NSDate+Month.h in Headers */,
 				B9C1EFAA214FF6D7005F5134 /* NSDate+Compare.h in Headers */,
-				B9C1EFAB214FF6D7005F5134 /* NSDate+Calendar.h in Headers */,
 				B9C1EFAC214FF6D7005F5134 /* NSDate+DateTime.h in Headers */,
 				B9C1EFAD214FF6D7005F5134 /* NSDate+Components.h in Headers */,
 			);
