@@ -25,6 +25,26 @@
 		2DBA1DA1214412D82A4A9DE2 /* NSDate+YearSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1D5048796BAAC201E374 /* NSDate+YearSpec.mm */; };
 		2DBA1E35BE3A586792EF36AA /* NSDate+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA123E03D2A1C78BBE8153 /* NSDate+Components.m */; };
 		2DBA1F5558C62448A5ABEC1F /* NSDate+CompareSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1761C8A4FDE14104E1DA /* NSDate+CompareSpec.mm */; };
+		B9C1EFA0214FF644005F5134 /* NSDate_Calendar.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C1EF9E214FF644005F5134 /* NSDate_Calendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C1EFA4214FF6D7005F5134 /* NSDate+Day.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA10F0FCFE9DD3D65052D1 /* NSDate+Day.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C1EFA5214FF6D7005F5134 /* NSDate+Hour.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1623E13AD385244B6FD0 /* NSDate+Hour.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C1EFA6214FF6D7005F5134 /* NSDate+Time.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA18724F119F0E9B9B20CD /* NSDate+Time.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C1EFA7214FF6D7005F5134 /* NSDate+Week.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA15ACC795E99714229BEE /* NSDate+Week.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C1EFA8214FF6D7005F5134 /* NSDate+Year.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1D799F74DA311CD6536F /* NSDate+Year.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C1EFA9214FF6D7005F5134 /* NSDate+Month.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1F0525C26CA84D59F689 /* NSDate+Month.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C1EFAA214FF6D7005F5134 /* NSDate+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA154E91EA244B4E3FDD38 /* NSDate+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C1EFAB214FF6D7005F5134 /* NSDate+Calendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1205683FBF7DABB985A6 /* NSDate+Calendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C1EFAC214FF6D7005F5134 /* NSDate+DateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1C963329D03EA297BAC6 /* NSDate+DateTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C1EFAD214FF6D7005F5134 /* NSDate+Components.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA15F3232962A90CEDE304 /* NSDate+Components.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C1EFAE214FF6F8005F5134 /* NSDate+Day.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA18D3C624EFB1463BB6EF /* NSDate+Day.m */; };
+		B9C1EFAF214FF6F8005F5134 /* NSDate+Hour.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA15D8B01C499507E7FE1C /* NSDate+Hour.m */; };
+		B9C1EFB0214FF6F8005F5134 /* NSDate+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA15FC524281248FE360CF /* NSDate+Time.m */; };
+		B9C1EFB1214FF6F8005F5134 /* NSDate+Week.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1D0C1E19D4B6E7B36585 /* NSDate+Week.m */; };
+		B9C1EFB2214FF6F8005F5134 /* NSDate+Year.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA18BF14CD607C5991E44D /* NSDate+Year.m */; };
+		B9C1EFB3214FF6F8005F5134 /* NSDate+Month.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1CF9CE748D0DC67625CB /* NSDate+Month.m */; };
+		B9C1EFB4214FF6F8005F5134 /* NSDate+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1D01BB5BC640A2709CC1 /* NSDate+Compare.m */; };
+		B9C1EFB5214FF6F8005F5134 /* NSDate+DateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA13D03F1DA13660CD7ED5 /* NSDate+DateTime.m */; };
+		B9C1EFB6214FF6F8005F5134 /* NSDate+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA123E03D2A1C78BBE8153 /* NSDate+Components.m */; };
 		FAE8B2B01B888452006FC74B /* NSDate+HourSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA16E9A7A5A0C0FA04AD2F /* NSDate+HourSpec.mm */; };
 /* End PBXBuildFile section */
 
@@ -71,11 +91,21 @@
 		2DBA1F0525C26CA84D59F689 /* NSDate+Month.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Month.h"; sourceTree = "<group>"; };
 		8857A9CB1C71C895DA26A700 /* libPods-Spec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spec.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E4AC7257535878A0FE58196 /* Pods-Spec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spec.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spec/Pods-Spec.release.xcconfig"; sourceTree = "<group>"; };
+		B9C1EF9C214FF644005F5134 /* NSDate_Calendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSDate_Calendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C1EF9E214FF644005F5134 /* NSDate_Calendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDate_Calendar.h; sourceTree = "<group>"; };
+		B9C1EF9F214FF644005F5134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F219118FB47E8133E1FC6E31 /* Pods-Spec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spec.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spec/Pods-Spec.debug.xcconfig"; sourceTree = "<group>"; };
 		FAE8B2A61B8876A6006FC74B /* Spec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Spec; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B9C1EF98214FF644005F5134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAE8B2A31B8876A6006FC74B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,10 +184,20 @@
 			path = ../Pod;
 			sourceTree = "<group>";
 		};
+		B9C1EF9D214FF644005F5134 /* NSDate+Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1EF9E214FF644005F5134 /* NSDate_Calendar.h */,
+				B9C1EF9F214FF644005F5134 /* Info.plist */,
+			);
+			path = "NSDate+Calendar";
+			sourceTree = "<group>";
+		};
 		FAE8B29D1B8876A6006FC74B = {
 			isa = PBXGroup;
 			children = (
 				FAE8B2A81B8876A6006FC74B /* Spec */,
+				B9C1EF9D214FF644005F5134 /* NSDate+Calendar */,
 				FAE8B2A71B8876A6006FC74B /* Products */,
 				2DBA1F0A2E4F3F88042BD83A /* Pod */,
 				2D688BE3B6DF036DAFACB031 /* Pods */,
@@ -169,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				FAE8B2A61B8876A6006FC74B /* Spec */,
+				B9C1EF9C214FF644005F5134 /* NSDate_Calendar.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,7 +225,46 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		B9C1EF99214FF644005F5134 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1EFA0214FF644005F5134 /* NSDate_Calendar.h in Headers */,
+				B9C1EFA4214FF6D7005F5134 /* NSDate+Day.h in Headers */,
+				B9C1EFA5214FF6D7005F5134 /* NSDate+Hour.h in Headers */,
+				B9C1EFA6214FF6D7005F5134 /* NSDate+Time.h in Headers */,
+				B9C1EFA7214FF6D7005F5134 /* NSDate+Week.h in Headers */,
+				B9C1EFA8214FF6D7005F5134 /* NSDate+Year.h in Headers */,
+				B9C1EFA9214FF6D7005F5134 /* NSDate+Month.h in Headers */,
+				B9C1EFAA214FF6D7005F5134 /* NSDate+Compare.h in Headers */,
+				B9C1EFAB214FF6D7005F5134 /* NSDate+Calendar.h in Headers */,
+				B9C1EFAC214FF6D7005F5134 /* NSDate+DateTime.h in Headers */,
+				B9C1EFAD214FF6D7005F5134 /* NSDate+Components.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		B9C1EF9B214FF644005F5134 /* NSDate+Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C1EFA3214FF644005F5134 /* Build configuration list for PBXNativeTarget "NSDate+Calendar" */;
+			buildPhases = (
+				B9C1EF97214FF644005F5134 /* Sources */,
+				B9C1EF98214FF644005F5134 /* Frameworks */,
+				B9C1EF99214FF644005F5134 /* Headers */,
+				B9C1EF9A214FF644005F5134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSDate+Calendar";
+			productName = "NSDate+Calendar";
+			productReference = B9C1EF9C214FF644005F5134 /* NSDate_Calendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		FAE8B2A51B8876A6006FC74B /* Spec */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAE8B2AD1B8876A6006FC74B /* Build configuration list for PBXNativeTarget "Spec" */;
@@ -213,6 +293,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Okolodev;
 				TargetAttributes = {
+					B9C1EF9B214FF644005F5134 = {
+						CreatedOnToolsVersion = 9.4;
+						DevelopmentTeam = T88LXU5DBG;
+						ProvisioningStyle = Automatic;
+					};
 					FAE8B2A51B8876A6006FC74B = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -231,9 +316,20 @@
 			projectRoot = "";
 			targets = (
 				FAE8B2A51B8876A6006FC74B /* Spec */,
+				B9C1EF9B214FF644005F5134 /* NSDate+Calendar */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9C1EF9A214FF644005F5134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		6356DB6C1B2443B875232036 /* [CP] Check Pods Manifest.lock */ = {
@@ -272,6 +368,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B9C1EF97214FF644005F5134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1EFAE214FF6F8005F5134 /* NSDate+Day.m in Sources */,
+				B9C1EFAF214FF6F8005F5134 /* NSDate+Hour.m in Sources */,
+				B9C1EFB0214FF6F8005F5134 /* NSDate+Time.m in Sources */,
+				B9C1EFB1214FF6F8005F5134 /* NSDate+Week.m in Sources */,
+				B9C1EFB2214FF6F8005F5134 /* NSDate+Year.m in Sources */,
+				B9C1EFB3214FF6F8005F5134 /* NSDate+Month.m in Sources */,
+				B9C1EFB4214FF6F8005F5134 /* NSDate+Compare.m in Sources */,
+				B9C1EFB5214FF6F8005F5134 /* NSDate+DateTime.m in Sources */,
+				B9C1EFB6214FF6F8005F5134 /* NSDate+Components.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAE8B2A21B8876A6006FC74B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,6 +412,92 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		B9C1EFA1214FF644005F5134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T88LXU5DBG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "NSDate+Calendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ramseysolutions.NSDate-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9C1EFA2214FF644005F5134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T88LXU5DBG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "NSDate+Calendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ramseysolutions.NSDate-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FAE8B2AB1B8876A6006FC74B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -401,6 +599,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B9C1EFA3214FF644005F5134 /* Build configuration list for PBXNativeTarget "NSDate+Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C1EFA1214FF644005F5134 /* Debug */,
+				B9C1EFA2214FF644005F5134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FAE8B2A11B8876A6006FC74B /* Build configuration list for PBXProject "Spec" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
